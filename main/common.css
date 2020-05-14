@@ -8,17 +8,38 @@ body {
     background: #A52A2A;
     color: rgb(180, 132, 12);
     height: 120px;
-    font-size: 20px;
     margin: 0;
     padding: 0;
     display : flex;
 }
 
-.lienheader1 {
+.classh1 {
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center; /* alignement vertical */
+    margin: 20px;
+    font-size: 60px;
+}
+
+.header a {
     text-decoration: none;
     color: rgb(180, 132, 12)
 }
 
-#listemenug li {
+.menu{
+    vertical-align: text-bottom;
+
+}
+
+.listemenug {
+    word-spacing: 20px;
+}
+
+.listemenug li {
     display:inline;
+    font-size: 20px;
+}
+
+.p2{
+    background: #A52A2A;
 }
