@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    /*background: #A52A2A;*/
+    font-family: 'Dancing Script', cursive; 
+  }
+
+.header {
+    background: #A52A2A;
+    color: rgb(180, 132, 12);
+    height: 120px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display : flex;
+}
+
+#header1{
+    text-decoration : none;
+    text-align: left;
+}
+
+#listmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#listmenu li {
+margin:auto;
+display:inline;
+text-decoration: none;
+text-align: center;
+color: rgb(180, 132, 12);
+}
+
+.p1{
+    text-align: center;
+    height: 120px;
+}
+.p2{
+    background: #A52A2A;
+    height: 120px;
+}
