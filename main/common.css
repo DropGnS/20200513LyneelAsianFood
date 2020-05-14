@@ -14,31 +14,11 @@ body {
     display : flex;
 }
 
-#header1{
-    text-decoration : none;
-    text-align: left;
+.lienheader1 {
+    text-decoration: none;
+    color: rgb(180, 132, 12)
 }
 
-#listmenu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-}
-
-#listmenu li {
-margin:auto;
-display:inline;
-text-decoration: none;
-text-align: center;
-color: rgb(180, 132, 12);
-}
-
-.p1{
-    text-align: center;
-    height: 120px;
-}
-.p2{
-    background: #A52A2A;
-    height: 120px;
+#listemenug li {
+    display:inline;
 }
