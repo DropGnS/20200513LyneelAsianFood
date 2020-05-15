@@ -39,6 +39,10 @@ body {
     display:inline;
 }
 
+.p1{
+    text-align: center;
+}
+
 .p2{
     background: #A52A2A;
 }
