@@ -4,45 +4,58 @@ body {
     font-family: 'Dancing Script', cursive; 
   }
 
-.header {
+#header {
+    display:flex;
     background: #A52A2A;
     color: rgb(180, 132, 12);
     height: 120px;
     margin: 0;
     padding: 0;
-    display : flex;
-    justify-content: space-between; /* alignement vertical */
-    align-content: center;
+    align-items: center;
 }
 
-.classh1 {
-    margin: 20px;
-    font-size: 60px;
-}
-
-.header a {
+#header a {
+    color: rgb(180, 132, 12);
     text-decoration: none;
-    color: inherit
+}
+
+.headerlogo{
+    
+    display:flex;
+    font-size: 60px;
+    margin-left: -30px;
+    flex:1;
+    flex-wrap: nowrap;
 }
 
 .menu{
-    height: 120px;
-    align-self: flex-end;
+    display:flex;
+/*background-color: yellow;*/
+    margin: 0px;
+    padding: 0px;
+    align-self: flex-end; 
+    margin-bottom: 1%;
+    font-size: 35px;
+    word-spacing: 30px;
+    flex:1.5;
+    flex-wrap: nowrap;
+
+
+ }
+.listemenug {
+    margin: 0px;
+    padding: 0px;
 }
 
-.listemenug {
-    word-spacing: 20px;
-    font-size: 20px;    
-}
 
 .listemenug li {
-    display:inline;
+    display: inline;
 }
 
-.p1{
-    text-align: center;
+.vide{
+    background-color: yellow;
 }
-
-.p2{
-    background: #A52A2A;
+.imgphoenix{
+    height: 120px;
+    margin-top: 20px;
 }
